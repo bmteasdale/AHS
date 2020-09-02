@@ -1,0 +1,187 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Import Google Fonts */
+/* Playfair, Dosis */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Playfair+Display:ital@0;1&display=swap');
+/* 222831, 30475e, c1a57b, ececec */
+
+/* Navigation Bar */
+#navbar {
+    background-color: #FFFFFF !important;
+    font-family: 'Playfair Display', serif;
+    height: 125px;
+}
+.nav-item {
+    color: #222831 !important;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.navbar-logo {
+    height: 125px;
+}
+
+/* Title Section */
+#title {
+    text-align: center;
+    padding-top: 30vh;
+    height: 600px;
+    /* background-image: url(./res/header-image.jpeg); */
+    /* background-image: url(./res/outdoor_units.jpeg); */
+    background-image: url(./res/tools-header.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+}
+
+.title-header {
+    background-color: white;
+    color: black;
+    font-size: 4vw; /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto; /* Center the text container */
+    padding: 10px;
+    width: 50%;
+    text-align: center; /* Center text */
+    position: absolute; /* Position text */
+    top: 50%; /* Position text in the middle */
+    left: 50%; /* Position text in the middle */
+    transform: translate(-50%, -50%); /* Position text in the middle */
+    mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+
+
+/* Details Section */
+#details {
+    height: fit-content;
+    background-color: #ececec;
+    font-family: 'Dosis', sans-serif;
+    padding: 100px 10%;
+}
+
+
+/* Features Section */
+#features {
+    text-align: center;
+    color: #ececec;
+    height: fit-content;
+    background-color: #c1a57b;
+    font-family: 'Dosis', sans-serif;
+    padding: 10%;
+}
+
+
+/* Previous Work */
+
+#prev-work {
+    height: fit-content;
+    background-color: #ececec;
+    padding:  0 10% 10% 10%;
+}
+
+.prev-work-header {
+    text-align: center;
+    padding: 50px 0 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
+}
+
+/* Trusted Brands Section */
+#brands {
+    background-color: white;
+    text-align: center;
+    padding: 50px 100px 100px;
+}
+
+.brands-header {
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 50px;
+}
+.brand-logo {
+    border-radius: 50%;
+    height: 150px;
+}
+.brands-gallery {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-width: 25%;
+    -moz-column-width: 25%;
+    column-width: 25%;
+    text-align: center;
+}
+
+/* Contact Section */
+#contact {
+    height: fit-content;
+    padding: 100px;
+    background-color: #30475e;
+    text-align: center;
+    color: white;
+}
+
+.contact-header {
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.contact-value {
+    padding-left: 3vw;
+}
+
+/* Changes to be made on 
+   specific screen sizes. */
+
+@media (max-width: 992px) {
+    .feature-box {
+        padding-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #brands {
+        padding: 50px 0 100px;
+    }
+    
+    .brands-gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+
+}
+    
+@media (max-width: 453px) {
+    .title-header {
+        font-size: 8vw;
+    }
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+
+    #contact {
+        padding: 50px 0;
+    }
+
+}
