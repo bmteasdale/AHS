@@ -1,8 +1,8 @@
 import React from 'react';
-import Napoleon from '../res/NapoleonLogo.png';
+import Napoleon from '../res/NapoleonLogo-compressed.jpg';
 import Mitsubishi from '../res/MitsubishiLogo.jpg';
-import Fujitsu from '../res/FujitsuLogo.jpg';
-import York from '../res/YorkLogo.jpg';
+import Fujitsu from '../res/FujitsuLogo-compressed.jpg';
+import York from '../res/YorkLogo-compressed.jpg';
 
 function Brands() {
     return (
