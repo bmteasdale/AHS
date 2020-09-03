@@ -10,32 +10,32 @@ function PrevWork() {
 
                     {/* <!-- Grid column --> */}
                     <div className="mb-3">
-                        <img className="img-fluid" src={require("../res/outdoor-install.JPG")} alt="first"/>
+                        <img className="img-fluid" src={require("../res/outdoor-install-compressed.jpg")} alt="first"/>
                     </div>
 
                     {/* <!-- Grid column --> */}
                     <div className="mb-3">
-                        <img className="img-fluid" src={require("../res/subway-outdoor.JPG")} alt="second"/>
+                        <img className="img-fluid" src={require("../res/third_slide-compressed.jpg")} alt="second"/>
                     </div>
 
                     {/* <!-- Grid column --> */}
                     <div className="mb-3">
-                        <img className="img-fluid" src={require("../res/seventh_card.jpeg")} alt="third"/>
+                        <img className="img-fluid" src={require("../res/seventh_card-compressed.jpg")} alt="third"/>
                     </div>
 
                     {/* <!-- Grid column --> */}
                     <div className="mb-3">
-                        <img className="img-fluid" src={require("../res/fourth_slide.jpeg")} alt="fourth"/>
+                        <img className="img-fluid" src={require("../res/fourth_slide-compressed.jpg")} alt="fourth"/>
                     </div>
 
                     {/* <!-- Grid column --> */}
                     <div className="mb-3">
-                        <img className="img-fluid" src={require("../res/second_card.JPG")} alt="fifth"/>
+                        <img className="img-fluid" src={require("../res/second_card-compressed.jpg")} alt="fifth"/>
                     </div>
 
                     {/* <!-- Grid column --> */}
                     <div className="mb-3">
-                        <img className="img-fluid" src={require("../res/outdoor-unit.JPG")} alt="sixth"/>
+                        <img className="img-fluid" src={require("../res/outdoor-unit-compressed.jpg")} alt="sixth"/>
                     </div>
 
                 </div>
