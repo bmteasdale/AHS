@@ -10,12 +10,12 @@ function PrevWork() {
 
                     {/* <!-- Grid column --> */}
                     <div className="mb-3">
-                        <img className="img-fluid" src={require("../res/outdoor-install-compressed.jpg")} alt="first"/>
+                        <img className="img-fluid" src={require("../res/dual-compressed.jpg")} alt="first"/>
                     </div>
 
                     {/* <!-- Grid column --> */}
                     <div className="mb-3">
-                        <img className="img-fluid" src={require("../res/third_slide-compressed.jpg")} alt="second"/>
+                        <img className="img-fluid" src={require("../res/single-w-white-bg-compressed.jpg")} alt="second"/>
                     </div>
 
                     {/* <!-- Grid column --> */}
@@ -25,7 +25,7 @@ function PrevWork() {
 
                     {/* <!-- Grid column --> */}
                     <div className="mb-3">
-                        <img className="img-fluid" src={require("../res/fourth_slide-compressed.jpg")} alt="fourth"/>
+                        <img className="img-fluid" src={require("../res/night-compressed.jpg")} alt="fourth"/>
                     </div>
 
                     {/* <!-- Grid column --> */}
