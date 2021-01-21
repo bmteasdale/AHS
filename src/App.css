@@ -97,6 +97,17 @@ html, body {
     column-width: 33%;
 }
 
+.img-fluid {
+    /* Dissalow image drag from site */
+    /* Implemtation from https://stackoverflow.com/a/12906840 */
+    /* user-drag: none;  */
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
 /* Trusted Brands Section */
 #brands {
     background-color: white;
