@@ -15,7 +15,7 @@ function PrevWork() {
 
                     {/* <!-- Grid column --> */}
                     <div className="mb-3">
-                        <img className="img-fluid" src={require("../res/single-w-white-background.jpg")} alt="second"/>
+                        <img className="img-fluid" src={require("../res/bethany_compressed.jpg")} alt="second"/>
                     </div>
 
                     {/* <!-- Grid column --> */}
