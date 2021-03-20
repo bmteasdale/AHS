@@ -4,7 +4,7 @@
 import React from 'react';
 import NavBar from './components/Navbar';
 import Title from './components/Title';
-// import Details from './components/Description';
+import Details from './components/Description';
 import Features from './components/Features';
 import Brands from './components/Brands';
 import Contact from './components/Contact';
@@ -16,10 +16,10 @@ function App() {
     <div className="App">
       <NavBar />
       <Title />
+      <Details />
       <Brands />
       <Features />
       <PrevWork />
-      {/* <Details /> */}
       <Contact />
     </div>
   );

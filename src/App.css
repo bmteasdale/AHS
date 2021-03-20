@@ -56,12 +56,16 @@ html, body {
 
 /* Details Section */
 #details {
+    text-align: center;    
     height: fit-content;
     background-color: #ececec;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Playfair Display', serif;
     padding: 100px 10%;
 }
 
+.comp-desc {
+    line-height: 2;
+}
 
 /* Features Section */
 #features {
@@ -136,7 +140,7 @@ html, body {
 /* Contact Section */
 #contact {
     height: fit-content;
-    padding: 100px;
+    padding: 100px 20%;
     background-color: #30475e;
     text-align: center;
     color: white;
