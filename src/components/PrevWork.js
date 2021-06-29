@@ -30,12 +30,12 @@ function PrevWork() {
 
                     {/* <!-- Grid column --> */}
                     <div className="mb-3">
-                        <img className="img-fluid" src={require("../res/second_card-compressed.jpg")} alt="fifth"/>
+                        <img className="img-fluid" src={require("../res/MarangoniOutdoorUnit.jpeg")} alt="fifth"/>
                     </div>
 
                     {/* <!-- Grid column --> */}
                     <div className="mb-3">
-                        <img className="img-fluid" src={require("../res/outdoor-unit-compressed.jpg")} alt="sixth"/>
+                        <img className="img-fluid" src={require("../res/OhioIndoorUnit.jpeg")} alt="sixth"/>
                     </div>
 
                 </div>
