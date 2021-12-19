@@ -5,7 +5,7 @@ html, body {
 
 /* Import Google Fonts */
 /* Playfair, Dosis */
-@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Playfair+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Playfair+Display:ital@0;1&display=swap');
 /* 222831, 30475e, c1a57b, ececec */
 
 /* Navigation Bar */
@@ -16,6 +16,7 @@ html, body {
 }
 .nav-item {
     color: #222831 !important;
+    font-family: 'Poppins', serif;
     font-size: 18px;
     margin-right: 20px;
 }
@@ -33,7 +34,8 @@ html, body {
     background-image: url(./res/tools-header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins';
+    /* font-family: 'Playfair Display', serif; */
     position: relative;
 }
 
@@ -59,7 +61,8 @@ html, body {
     text-align: center;    
     height: fit-content;
     background-color: #ececec;
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Poppins';
     padding: 100px 10%;
 }
 
