@@ -10,7 +10,7 @@ function PrevWork() {
 
                     {/* <!-- Grid column --> */}
                     <div className="mb-3">
-                        <img className="img-fluid" src={require("../res/dual.jpg")} alt="first"/>
+                        <img className="img-fluid" src={require("../res/floorModel.jpeg")} alt="first"/>
                     </div>
 
                     {/* <!-- Grid column --> */}
@@ -35,7 +35,7 @@ function PrevWork() {
 
                     {/* <!-- Grid column --> */}
                     <div className="mb-3">
-                        <img className="img-fluid" src={require("../res/OhioIndoorUnit.jpeg")} alt="sixth"/>
+                        <img className="img-fluid" src={require("../res/goodmanOutdoorUnit.jpeg")} alt="sixth"/>
                     </div>
 
                 </div>
