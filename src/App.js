@@ -1,26 +1,28 @@
-// Description is commented out to be used 
-// for a later time.
-
 import React from 'react';
 import NavBar from './components/Navbar';
 import Title from './components/Title';
 import Details from './components/Description';
 import Features from './components/Features';
 import Brands from './components/Brands';
-import Contact from './components/Contact';
 import PrevWork from './components/PrevWork';
 import './App.css';
+//theme
+import "primereact/resources/themes/lara-light-indigo/theme.css";     
+//core
+import "primereact/resources/primereact.min.css";
+//icons
+import "primeicons/primeicons.css";
+import "primeflex/primeflex.css"
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Title />
-      <Details />
-      <Brands />
       <Features />
+      <Brands />
       <PrevWork />
-      <Contact />
+      <Details />
     </div>
   );
 }

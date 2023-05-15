@@ -1,8 +1,3 @@
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
 /* Import Google Fonts */
 /* Playfair, Dosis */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Playfair+Display:ital@0;1&display=swap');
@@ -24,37 +19,6 @@ html, body {
     height: 125px;
 }
 
-/* Title Section */
-#title {
-    text-align: center;
-    padding-top: 30vh;
-    height: 600px;
-    /* background-image: url(./res/header-image.jpeg); */
-    /* background-image: url(./res/outdoor_units.jpeg); */
-    background-image: url(./res/tools-header.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'Poppins';
-    /* font-family: 'Playfair Display', serif; */
-    position: relative;
-}
-
-.title-header {
-    background-color: white;
-    color: black;
-    font-size: 4vw; /* Responsive font size */
-    font-weight: bold;
-    margin: 0 auto; /* Center the text container */
-    padding: 10px;
-    width: 50%;
-    text-align: center; /* Center text */
-    position: absolute; /* Position text */
-    top: 50%; /* Position text in the middle */
-    left: 50%; /* Position text in the middle */
-    transform: translate(-50%, -50%); /* Position text in the middle */
-    mix-blend-mode: screen; /* This makes the cutout text possible */
-}
-
 
 /* Details Section */
 #details {
@@ -72,21 +36,13 @@ html, body {
 
 /* Features Section */
 #features {
-    text-align: center;
-    color: #ececec;
-    height: fit-content;
-    background-color: #c1a57b;
-    font-family: 'Dosis', sans-serif;
-    padding: 10%;
+    background-color: #ececec;
 }
 
 
 /* Previous Work */
-
 #prev-work {
-    height: fit-content;
     background-color: #ececec;
-    padding:  0 10% 10% 10%;
 }
 
 .prev-work-header {
@@ -95,25 +51,6 @@ html, body {
     font-family: 'Playfair Display', serif;
 }
 
-.gallery {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    -webkit-column-width: 33%;
-    -moz-column-width: 33%;
-    column-width: 33%;
-}
-
-.img-fluid {
-    /* Dissalow image drag from site */
-    /* Implemtation from https://stackoverflow.com/a/12906840 */
-    /* user-drag: none;  */
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-}
 
 /* Trusted Brands Section */
 #brands {
